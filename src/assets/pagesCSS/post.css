@@ -1,0 +1,100 @@
+
+.title 
+{
+  width: 100%;
+  margin-bottom: 4%;
+  padding: 10px 10px 10px 20px;
+  font-size: 1rem;
+  border-radius: var(--border-radius) ;
+  color: var(--text-color);
+  border: 1px solid var(--second-color);
+  background-color:  var(--main-bg);
+}
+
+.contentEditor
+{
+  height: 300px;
+  overflow: scroll;
+  border: 1px solid var(--second-color);
+  border-radius: var(--border-radius) ;
+}
+.contentEditor:focus {
+    border: 2px solid var(--main-color);
+}
+
+.contentEditor > .editor
+{
+    height: 100%;
+    border: none;
+}
+
+.postcontent > .EButton
+{
+  margin-bottom: 4%;
+  padding:1vh;
+  font-size: 1rem;
+  
+}
+
+button
+{
+  padding: 10px 10px 10px 20px;
+  border: 1px solid var(--second-color);
+  border-radius: var(--border-radius) ;
+}
+.postcontent > .EButton > button
+{
+  padding: 10px 10px 10px 20px;
+  border: 1px solid var(--second-color);
+  border-radius: var(--border-radius) ;
+}
+.addpost
+{
+  float: right;
+  padding: 10px 10px 10px 20px;
+  border: 1px solid var(--second-color);
+  border-radius: var(--border-radius) ;
+}
+.line
+{
+  
+  border: 1px solid var(--main-color);
+}
+.imageupload
+{
+  padding: 10px 10px 10px 20px;
+  border: 1px solid var(--second-color);
+  border-radius: var(--border-radius) ;
+  overflow-y: scroll;
+  height: 60vh;
+}
+
+.uploadedImages > img
+{
+  margin-bottom: 2vh;
+}
+
+.attached
+{
+  margin: 2vh;
+}
+.contentImage
+{
+  border-radius: 10%;
+  object-fit: cover;
+}
+.Contentinfo
+{
+  margin: 3vh;
+  font-size: medium;
+}
+.single > .attached
+{
+
+}
+.content > .single > .attached
+{
+
+
+  
+}
